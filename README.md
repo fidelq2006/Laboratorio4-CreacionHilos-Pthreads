@@ -68,7 +68,6 @@ gcc -pthread hilo_hello.c -o hello
 Hello world
 ```
 
-### Evidencia
 
 
 ---
@@ -82,14 +81,14 @@ Se enviaron argumentos mediante punteros tipo `void*`, permitiendo que cada hilo
 ### Código
 
 ```txt
-codigo/parametros.c
+codigo/hilo_argumentos.c
 ```
 
 ### Compilación
 
 ```bash
-gcc -pthread parametros.c -o parametros
-./parametros
+gcc -pthread hilo_argumentos.c -o hilo_agumentos
+./hilo_argumentos
 ```
 
 ### Resultado esperado
@@ -98,7 +97,6 @@ gcc -pthread parametros.c -o parametros
 Hello     world
 ```
 
-### Evidencia
 
 
 
@@ -113,17 +111,17 @@ Se calculó el tiempo necesario para crear múltiples hilos utilizando `gettimeo
 ### Código
 
 ```txt
-codigo/tiempo.c
+codigo/hilo34.c
 ```
 
 ### Compilación
 
 ```bash
-gcc -pthread tiempo.c -o tiempo
-./tiempo
+gcc -pthread hilo34.c -o hilo34
+./hilo34
 ```
 
-### Evidencia
+
 
 
 ---
